@@ -1,6 +1,6 @@
-import { existsSync } from "https://deno.land/std/fs/exists.ts";
-import * as log from "https://deno.land/std/log/mod.ts";
-import * as path from "https://deno.land/std/path/mod.ts";
+import { existsSync } from "https://deno.land/std@v0.41.0/fs/exists.ts";
+import * as log from "https://deno.land/std@v0.41.0/log/mod.ts";
+import * as path from "https://deno.land/std@v0.41.0/path/mod.ts";
 import { encode, Hash } from "https://deno.land/x/checksum@1.2.0/mod.ts";
 
 const os = Deno.build.os;
